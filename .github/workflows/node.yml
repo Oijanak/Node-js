@@ -13,4 +13,5 @@ jobs:
         with:
           node-version: "11"
       - run: npm install
+      - run: npm run audit --prefix client
       - run: npm run build --prefix client
