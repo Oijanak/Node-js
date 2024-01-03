@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "install-server": "npm install",
     "test": "jest --detectOpenHandles",
     "test-watch": "jest --watch",
     "start": "node ./src/server.js",
