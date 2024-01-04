@@ -7,7 +7,7 @@ const { mongoConnect, mongoDisconnect } = require("../../services/mongo");
 describe("Launches API test", () => {
   beforeAll(async () => {
     await mongoConnect();
-    await loadPlanetData();
+    loadPlanetData();
   });
 
   afterAll(async () => {
